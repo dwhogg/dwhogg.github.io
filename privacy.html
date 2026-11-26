@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>hermes-mail Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for hermes-mail, a private, personal email assistant.">
+  <link rel="icon" href="hermes-mail-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-inner">
+      <img src="hermes-mail-logo.png" alt="hermes-mail logo">
+      <div>
+        <h1>hermes-mail</h1>
+        <p>A private, personal email assistant. It reads its owner's own mailboxes with read-only access and files the
+          messages that matter into their personal notes.</p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="privacy.html" aria-current="page">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </nav>
+
+  <main>
+    <h2 id="privacy">Privacy Policy</h2>
+    <p class="muted">Last updated: November 25, 2026</p>
+
+    <p>hermes-mail ("the app") is a personal, self-hosted tool. It is operated by one individual ("the owner") solely to
+      process the owner's own email. It is not offered to the public. This policy explains what data the app accesses
+      and how it is handled.</p>
+
+    <h2>Data the app accesses</h2>
+    <p>With the owner's explicit permission, granted through Google's sign-in screen, the app uses the Gmail API with
+      the read-only scope <code>https://www.googleapis.com/auth/gmail.readonly</code>. This allows it to read:</p>
+    <ul>
+      <li>email messages, including headers, body text and attachment names, in the owner's own Gmail account</li>
+      <li>the account's labels and the history of label changes</li>
+      <li>the account's email address, used only to confirm the correct account was signed in</li>
+    </ul>
+    <p>The app cannot send, modify or delete email, and it does not request any other Google data.</p>
+
+    <h2>How the data is used</h2>
+    <ul>
+      <li>To save selected messages, such as messages with a chosen label, as notes in the owner's private notes.</li>
+      <li>To produce summaries, digests and alerts (for example, about important, time-sensitive or likely fraudulent
+        messages) for the owner.</li>
+      <li>To keep a private log of which messages were processed and why, so the owner can review and correct the app's
+        decisions.</li>
+    </ul>
+    <p>The data is used only to provide these features to the owner. It is not used for advertising, sold, or used to
+      build profiles of anyone.</p>
+
+    <h2>Storage and security</h2>
+    <ul>
+      <li>Data is stored only on computers controlled by the owner and in the owner's private, synchronised notes.</li>
+      <li>Google sign-in tokens are stored on the owner's server with access restricted to the app.</li>
+      <li>Email bodies that are not selected for keeping are deleted from the app's working storage after a short
+        retention period, typically 21 days. A small record of each message (such as sender, subject, date and a short
+        summary) is kept in a private log.</li>
+    </ul>
+
+    <h2>Sharing with third parties</h2>
+    <p>The data is not shared with anyone, with one exception: to produce summaries and classifications for the owner,
+      message content may be sent to a third-party AI model provider chosen by the owner. This is done only to provide
+      those features to the owner, and the content is processed under that provider's terms.</p>
+
+    <h2>Google API Services User Data Policy</h2>
+    <p>hermes-mail's use and transfer of information received from Google APIs adheres to the <a
+        href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+        Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>Removing access and deleting data</h2>
+    <p>Access can be removed at any time at <a
+        href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. After access is removed,
+      the app can no longer read the account. Because all stored data belongs to the owner, the owner can delete it at
+      any time.</p>
+
+    <h2>Changes</h2>
+    <p>This policy may be updated as the app changes. The date at the top shows the latest version.</p>
+
+  </main>
+
+  <footer>hermes-mail · a personal, non-commercial project</footer>
+</body>
+
+</html>
